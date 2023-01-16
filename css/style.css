@@ -1,0 +1,25 @@
+
+.image-car{
+    width: 200px;
+}
+.car{
+   position: relative;
+   left: 1900px;
+   top: 800px;
+   animation: carmove 5s infinite linear;
+}
+@keyframes carmove{
+    form {left: 0px;}
+    to {left: 100px;}
+}
+.cloud{
+    position: relative;
+    left: 100px;
+    top: 100px;
+    animation: cloudmove 5s infinite linear;
+    animation-direction:alternate;
+}
+@keyframes cloudmove{
+    form{left: 0px;}
+    to{left: 300px;}
+}
