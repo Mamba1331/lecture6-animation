@@ -18,8 +18,31 @@
     top: 100px;
     animation: cloudmove 5s infinite linear;
     animation-direction:alternate;
+    display: inline-block;
 }
 @keyframes cloudmove{
     form{left: 0px;}
     to{left: 300px;}
+}
+.cloud2{
+    position: relative;
+    display: inline-block;
+    left: 900px;
+    top: 100px;
+    animation: cloud2move 5s infinite linear alternate;
+}
+@keyframes cloud2move{
+    form{left: 0px;}
+    to{left: 700px;}
+}
+.birds{
+    position: relative;
+    display: inline-block;
+    left: 0px; 
+    top: 300px;
+    animation: birdsmove 5s infinite linear ; 
+}
+@keyframes birdsmove{
+   form{left: 0px;}
+   to{left: 300px;}
 }
